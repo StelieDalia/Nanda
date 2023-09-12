@@ -1,0 +1,103 @@
+<?php
+/**
+ * The base configuration for WordPress
+ *
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the web site, you can copy this file to "wp-config.php"
+ * and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * Database settings
+ * * Secret keys
+ * * Database table prefix
+ * * Localized language
+ * * ABSPATH
+ *
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
+ *
+ * @package WordPress
+ */
+
+// ** Database settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', '' );
+
+/** Database username */
+define( 'DB_USER', '' );
+
+/** Database password */
+define( 'DB_PASSWORD', '' );
+
+/** Database hostname */
+define( 'DB_HOST', '' );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+
+/**#@+
+ * Authentication unique keys and salts.
+ *
+ * Change these to different unique phrases! You can generate these using
+ * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
+ *
+ * You can change these at any point in time to invalidate all existing cookies.
+ * This will force all users to have to log in again.
+ *
+ * @since 2.6.0
+ */
+
+
+/**#@-*/
+
+/**
+ * WordPress database table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix = 'wp_';
+
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+
+
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the documentation.
+ *
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ */
+if ( ! defined( 'WP_DEBUG' ) ) {
+	define( 'WP_DEBUG', false );
+}
+
+
+define('AUTH_KEY',         'CRFBAT/D3uvUcFlXsKv/n09Z7Sk9T/a8gABn2qS4uIkzHQNHKD6kU0I8lwzA2crG/wLLLV9Yy2D20wYRmfR78g==');
+define('SECURE_AUTH_KEY',  'cQZLGSOJFELm5Rdm7TT+EZ2cWsFk3fj+pNAiX9aamnveZG8LmVz4WXfRXZIIHVBXAVKeZfVyf8zo9IJIYLU5QQ==');
+define('LOGGED_IN_KEY',    'I644HRp2k7ZVk9XIGaYvZI2pMMZHSBtiXVEB9dyVdMjiCFN2pHZZ7FIJzhYXdFrQDArs6kqPtce2Ofn7JXswWQ==');
+define('NONCE_KEY',        'am6oS1iHans3WAl2BtRV0mvaLlFQRJ+X5sAu9b0QiMGK1BhRbsllpe/qslSWIjyBXhd33fTJc3v/bgfvqby6Vw==');
+define('AUTH_SALT',        'SNy/sARdATgzJ40EV6Cvgdu6gLykiYjR84alWeWjFLSyV/138mBPFKkU7aDIa+/g4y/hSQ4fsdyGMV753iZnCg==');
+define('SECURE_AUTH_SALT', 'QK4wuV6s0kzd5ynNQPHJvexDk3ZnqCCekf01kiou1ejQ/874nDEWvCLxnU6VqjvSTufxNup2fVIthEDXxmV/JQ==');
+define('LOGGED_IN_SALT',   'vM53dpz7y7+an+6zpoyfV6foRzNsdDhlChTkML6hbaO2V99c5tSv3OJV6uxNvlkFRKg4GNtPAZqvC5gZsxvdvA==');
+define('NONCE_SALT',       '9ezCoFB9zn4GU/tb0oHSFvxwLijRqKFcYsLq832KBzAvudEhVDTLT/nU5XgTrCQo4WwJLHnskP3SCa4+/TK9Kg==');
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
+/* That's all, stop editing! Happy publishing. */
+
+/** Absolute path to the WordPress directory. */
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', __DIR__ . '/' );
+}
+
+/** Sets up WordPress vars and included files. */
+require_once ABSPATH . 'wp-settings.php';

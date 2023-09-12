@@ -1,0 +1,853 @@
+{
+    "dup_type": "lite",
+    "created": "2023-09-11 17:48:07",
+    "version_dup": "1.5.5.1",
+    "version_wp": "6.3.1",
+    "version_db": "8.0.16",
+    "version_php": "8.1.9",
+    "version_os": "Darwin",
+    "blogname": "Nanda Slam",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$qTkVUuU3H4YR\/ARi11A9V.5H4MkYsA\/NOOAFza5lQM2OtviXWvCb2",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "nanda.local",
+            "path": "\/",
+            "blogname": "Nanda Slam",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "stelie",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/nanda.local",
+            "fullSiteUrl": "http:\/\/nanda.local",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/uploads",
+            "fullUploadSafePath": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/nanda.local\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "local",
+        "tablesBaseCount": 59,
+        "tablesFinalCount": 59,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 1854,
+        "tablesSizeOnDisk": 19841024,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 72,
+                "insertedRows": 72,
+                "size": 163840
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 208,
+                "insertedRows": 208,
+                "size": 49152
+            },
+            "wp_cartflows_ca_cart_abandonment": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_cartflows_ca_email_history": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_cartflows_ca_email_templates": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 16384
+            },
+            "wp_cartflows_ca_email_templates_meta": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 32768
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 528,
+                "insertedRows": 536,
+                "size": 13156352
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 667,
+                "insertedRows": 683,
+                "size": 2179072
+            },
+            "wp_posts": {
+                "inaccurateRows": 120,
+                "insertedRows": 129,
+                "size": 1638400
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 17,
+                "insertedRows": 17,
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 17,
+                "insertedRows": 17,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 29,
+                "insertedRows": 29,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 87,
+                "insertedRows": 87,
+                "size": 49152
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 58,
+                "insertedRows": 58,
+                "size": 65536
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wp_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wp_wpforms_tasks_meta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            }
+        },
+        "varLowerCaseTables": "2",
+        "dbEngine": "MySQL",
+        "version": "8.0.16",
+        "versionComment": "MySQL Community Server - GPL",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "Nanda_Slam",
+        "packageHash": "7d0471e-11174807",
+        "secondaryHash": "7dc962c-11174807"
+    },
+    "fileInfo": {
+        "dirCount": 2576,
+        "fileCount": 13251,
+        "size": 95114893
+    },
+    "wpInfo": {
+        "version": "6.3.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+        "targetPaths": [
+            "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "stelie",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "CRFBAT\/D3uvUcFlXsKv\/n09Z7Sk9T\/a8gABn2qS4uIkzHQNHKD6kU0I8lwzA2crG\/wLLLV9Yy2D20wYRmfR78g==",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "cQZLGSOJFELm5Rdm7TT+EZ2cWsFk3fj+pNAiX9aamnveZG8LmVz4WXfRXZIIHVBXAVKeZfVyf8zo9IJIYLU5QQ==",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "I644HRp2k7ZVk9XIGaYvZI2pMMZHSBtiXVEB9dyVdMjiCFN2pHZZ7FIJzhYXdFrQDArs6kqPtce2Ofn7JXswWQ==",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "am6oS1iHans3WAl2BtRV0mvaLlFQRJ+X5sAu9b0QiMGK1BhRbsllpe\/qslSWIjyBXhd33fTJc3v\/bgfvqby6Vw==",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "SNy\/sARdATgzJ40EV6Cvgdu6gLykiYjR84alWeWjFLSyV\/138mBPFKkU7aDIa+\/g4y\/hSQ4fsdyGMV753iZnCg==",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "QK4wuV6s0kzd5ynNQPHJvexDk3ZnqCCekf01kiou1ejQ\/874nDEWvCLxnU6VqjvSTufxNup2fVIthEDXxmV\/JQ==",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "vM53dpz7y7+an+6zpoyfV6foRzNsdDhlChTkML6hbaO2V99c5tSv3OJV6uxNvlkFRKg4GNtPAZqvC5gZsxvdvA==",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "9ezCoFB9zn4GU\/tb0oHSFvxwLijRqKFcYsLq832KBzAvudEhVDTLT\/nU5XgTrCQo4WwJLHnskP3SCa4+\/TK9Kg==",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/nanda.local\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/nanda.local\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/nanda.local\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/nanda.local",
+                "homeUrl": "http:\/\/nanda.local",
+                "loginUrl": "http:\/\/nanda.local\/wp-login.php",
+                "contentUrl": "http:\/\/nanda.local\/wp-content",
+                "uploadBaseUrl": "http:\/\/nanda.local\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/nanda.local\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/nanda.local\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/nanda.local\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+                    "abs": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+                    "wpconfig": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+                    "wpcontent": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content",
+                    "uploads": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/uploads",
+                    "plugins": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/plugins",
+                    "muplugins": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/mu-plugins",
+                    "themes": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+                    "abs": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+                    "wpconfig": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public",
+                    "wpcontent": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content",
+                    "uploads": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/uploads",
+                    "plugins": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/plugins",
+                    "muplugins": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/mu-plugins",
+                    "themes": "\/Users\/kenguesteliedalia\/Local Sites\/nanda\/app\/public\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.5.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.15.3",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "astra-sites\/astra-sites.php": {
+                "slug": "astra-sites\/astra-sites.php",
+                "name": "Starter Templates",
+                "version": "3.4.0",
+                "pluginURI": "https:\/\/wpastra.com\/",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks & images. This plugin offers the premium library of ready templates & provides quick access to beautiful Pixabay images that can be imported in your website easily.",
+                "title": "Starter Templates",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.0.3",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-cart-abandonment-recovery\/woo-cart-abandonment-recovery.php": {
+                "slug": "woo-cart-abandonment-recovery\/woo-cart-abandonment-recovery.php",
+                "name": "WooCommerce Cart Abandonment Recovery",
+                "version": "1.2.25",
+                "pluginURI": "https:\/\/cartflows.com\/",
+                "author": "CartFlows Inc",
+                "authorURI": "https:\/\/cartflows.com\/",
+                "description": "Recover your lost revenue. Capture email address of users on the checkout page and send follow up emails if they don't complete the purchase.",
+                "title": "WooCommerce Cart Abandonment Recovery",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.8.3.1",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.3.1",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "1.9",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Nanda Slam"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "Nanda_Slam_7d0471ec1bb10e0b4467_20230911174807_installer-backup.php",
+    "package_name": "Nanda_Slam_7d0471ec1bb10e0b4467_20230911174807_archive.zip",
+    "package_hash": "7d0471e-11174807",
+    "package_notes": ""
+}
